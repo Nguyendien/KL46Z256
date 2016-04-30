@@ -1,0 +1,21 @@
+Dependencies for Project 'Blinky', Target 'Target 1': (DO NOT MODIFY !)
+F (.\LED.c)(0x542F6018)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I E:\1.NCKH\EXAMPLE\Exercise1_Blinky\Exercise1_Blinky\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.10.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DMKL46Z256xxx4-o .\led.o --omf_browse .\led.crf --depend .\led.d)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.10.0\Device\Include\MKL46Z4.h)(0x55FB7688)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0plus.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DF84A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.10.0\Device\Include\system_MKL46Z4.h)(0x55FB7688)
+F (.\main.c)(0x5705CEDB)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I E:\1.NCKH\EXAMPLE\Exercise1_Blinky\Exercise1_Blinky\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.10.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DMKL46Z256xxx4-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (LED.h)(0x542D1F4F)
+F (.\Delay.s)(0x56173E78)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork -I E:\1.NCKH\EXAMPLE\Exercise1_Blinky\Exercise1_Blinky\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.10.0\Device\Include--pd "__UVISION_VERSION SETA 518" --pd "_RTE_ SETA 1" --pd "MKL46Z256xxx4 SETA 1"--list .\listings\delay.lst --xref -o .\delay.o --depend .\delay.d)
+F (RTE\Device\MKL46Z256xxx4\startup_MKL46Z4.s)(0x51BFCCC8)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork -I E:\1.NCKH\EXAMPLE\Exercise1_Blinky\Exercise1_Blinky\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.10.0\Device\Include--pd "__UVISION_VERSION SETA 518" --pd "_RTE_ SETA 1" --pd "MKL46Z256xxx4 SETA 1"--list .\listings\startup_mkl46z4.lst --xref -o .\startup_mkl46z4.o --depend .\startup_mkl46z4.d)
+F (RTE\Device\MKL46Z256xxx4\system_MKL46Z4.c)(0x51BFCCC8)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I E:\1.NCKH\EXAMPLE\Exercise1_Blinky\Exercise1_Blinky\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.10.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DMKL46Z256xxx4-o .\system_mkl46z4.o --omf_browse .\system_mkl46z4.crf --depend .\system_mkl46z4.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DF84A)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.10.0\Device\Include\MKL46Z4.h)(0x55FB7688)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0plus.h)(0x5625C51C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625B160)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625B160)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625B160)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.10.0\Device\Include\system_MKL46Z4.h)(0x55FB7688)

@@ -1,0 +1,1 @@
+.\delay.o: Delay.s
