@@ -1,0 +1,119 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.18.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Dien Microsoft, Microsoft, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.18
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DARMCM1.DLL V1.12.0.0
+Target DLL:      PEMicro\Pemicro_ArmCortexInterface.dll V1.11
+Dialog DLL:      TARMCM1.DLL V1.9.0.0
+ 
+<h2>Project:</h2>
+E:\1.NCKH\Project\vidu6\sysled.uvprojx
+Project File Date:  04/07/2016
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'sysled'
+assembling startup_MKL46Z4.s...
+compiling led.c...
+led.h(5): warning:  #1295-D: Deprecated declaration init_SysTick_interrupt - give arg types
+  void init_SysTick_interrupt();
+led.h(7): warning:  #1-D: last line of file ends without a newline
+  void Delay (uint32_t TICK);	
+led.c(16): warning:  #177-D: variable "i" was declared but never referenced
+      uint32_t i = 0; //Create a loop variable
+led.c(37): warning:  #1-D: last line of file ends without a newline
+  	}
+led.c: 4 warnings, 0 errors
+compiling main.c...
+led.h(5): warning:  #1295-D: Deprecated declaration init_SysTick_interrupt - give arg types
+  void init_SysTick_interrupt();
+led.h(7): warning:  #1-D: last line of file ends without a newline
+  void Delay (uint32_t TICK);	
+main.c(13): warning:  #1-D: last line of file ends without a newline
+  		
+main.c: 3 warnings, 0 errors
+compiling system_MKL46Z4.c...
+linking...
+Program Size: Code=972 RO-data=224 RW-data=8 ZI-data=352  
+After Build - User command #1: C:\Keil_v5\ARM\ARMCC\bin\fromelf.exe
+Product: MDK-ARM Lite 5.18
+Component: ARM Compiler 5.06 update 1 (build 61)
+Tool: fromelf [4d35a6]
+ARM image conversion utility
+fromelf [options] input_file
+Options:
+       --help         display this help screen
+       --vsn          display version information
+       --output file  the output file. (defaults to stdout for -text format)
+       --nodebug      do not put debug areas in the output image
+       --nolinkview   do not put sections in the output image
+Binary Output Formats:
+       --bin          Plain Binary
+       --m32          Motorola 32 bit Hex
+       --i32          Intel 32 bit Hex
+       --vhx          Byte Oriented Hex format
+       --base addr    Optionally set base address for m32,i32
+Output Formats Requiring Debug Information
+       --fieldoffsets Assembly Language Description of Structures/Classes
+       --expandarrays Arrays inside and outside structures are expanded
+Other Output Formats:
+       --elf         ELF
+       --text        Text Information
+                Flags for Text Information
+                -v          verbose
+                -a          print data addresses (For images built with debug)
+                -c          disassemble code
+                -d          print contents of data section
+                -e          print exception tables
+                -g          print debug tables
+                -r          print relocation information
+                -s          print symbol table
+                -t          print string table
+                -y          print dynamic segment contents
+                -z          print code and data size information
+".\Objects\sysled.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.Kinetis_KLxx_DFP.1.10.0.pack
+                Keil::Device:Startup:1.0.0
+                Freescale Kinetis KLxx Series Device Support and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  E:\1.NCKH\Project\vidu6\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.10.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\ARM\startup_MKL46Z4.s
+      Source file:   Device\Source\system_MKL46Z4.c
+Build Time Elapsed:  00:00:07
+</pre>
+</body>
+</html>
